@@ -16,6 +16,7 @@ Authors: Ding Xu and Changfeng Zhao. License: MIT (see `LICENSE`).
 | Fig. 5 (germ recovery) | `scripts/fig5_germ_recovery.py` | `figures/fig5_germ_recovery.pdf`, `reports/fig5_recovery_report.txt` |
 | SM grouping / gauge algebra | `sympy_checks/symmetry_check.py` | console `PASS` lines |
 | SM physical-image rank | `sympy_checks/physical_image_rank.py` | console `PASS` lines + minor |
+| SM rank-4 jets / flat three-pulse | `sympy_checks/rank4_flat_markers.py` | console `PASS` |
 
 Table I–V in the main text are LaTeX; numerical residual magnitudes quoted
 there for Fig. 3 / Fig. 5 are written to the `reports/` text files.
