@@ -10,6 +10,7 @@ ROOT = Path(__file__).resolve().parent
 STEPS = [
     ("sympy: symmetry_check", [sys.executable, str(ROOT / "sympy_checks" / "symmetry_check.py")]),
     ("sympy: physical_image_rank", [sys.executable, str(ROOT / "sympy_checks" / "physical_image_rank.py")]),
+    ("sympy: hard_branch_markers", [sys.executable, str(ROOT / "sympy_checks" / "hard_branch_markers.py")]),
     ("fig1", [sys.executable, str(ROOT / "scripts" / "fig1_schematic.py")]),
     ("fig2", [sys.executable, str(ROOT / "scripts" / "fig2_flow.py")]),
     ("fig3", [sys.executable, str(ROOT / "scripts" / "fig3_gauge.py")]),
