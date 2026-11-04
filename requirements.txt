@@ -1,0 +1,9 @@
+# Pinned for manuscript numerics (PyBaMM 26.10.1.1 as cited).
+numpy==2.5.4
+scipy==1.18.1
+matplotlib==3.11.2
+sympy==1.14.0
+pybamm==26.10.1.1
+casadi==3.8.1
+anytree==2.13.0
+platformdirs==4.14.3

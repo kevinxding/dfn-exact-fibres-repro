@@ -1,0 +1,36 @@
+# Germ recovery report (reduced port)
+
+## Nominal
+Rser true=0.045 hat=0.045
+A true=[0.85, 1.2] hat=[0.8500000000000374, 1.1999999999999664]
+T true=[45.0, 80.0] hat=[np.float64(45.0), np.float64(80.0)]
+zeta true=0.55 hat=0.55 fit_err=1.531e-14
+dist_to_nominal_Q=0.000000e+00
+
+## $G_c$ orbit
+Rser true=0.045 hat=0.045
+A true=[0.85, 1.2] hat=[0.8500000000000374, 1.1999999999999664]
+T true=[45.0, 80.0] hat=[np.float64(45.0), np.float64(80.0)]
+zeta true=0.55 hat=0.55 fit_err=1.531e-14
+dist_to_nominal_Q=0.000000e+00
+
+## $G_s$ orbit
+Rser true=0.045 hat=0.045
+A true=[0.85, 1.2] hat=[0.8500000000000374, 1.1999999999999664]
+T true=[45.0, 80.0] hat=[np.float64(45.0), np.float64(80.0)]
+zeta true=0.55 hat=0.55 fit_err=1.531e-14
+dist_to_nominal_Q=0.000000e+00
+
+## Off $\Delta R_{\mathrm{ser}}$
+Rser true=0.165 hat=0.165
+A true=[0.85, 1.2] hat=[0.8500000000000361, 1.199999999999968]
+T true=[45.0, 80.0] hat=[np.float64(45.0), np.float64(80.0)]
+zeta true=0.55 hat=0.55 fit_err=1.386e-14
+dist_to_nominal_Q=1.307172e-03
+
+## Off $A_n$
+Rser true=0.045 hat=0.045
+A true=[0.85, 1.68] hat=[0.8500000000000225, 1.6799999999999835]
+T true=[45.0, 80.0] hat=[np.float64(45.0), np.float64(80.0)]
+zeta true=0.55 hat=0.55 fit_err=1.506e-14
+dist_to_nominal_Q=5.228688e-03

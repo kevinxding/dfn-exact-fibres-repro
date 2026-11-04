@@ -1,0 +1,16 @@
+err_gc_abs_max=0.000000e+00
+err_gs_abs_max=0.000000e+00
+rel_gc_max=0.000000e+00
+rel_gs_max=0.000000e+00
+err_offR_abs=1.500000e-01
+rel_offR=3.631291e-02
+err_offNu_abs=4.856406e-01
+rel_offNu=1.175668e-01
+pybamm_dV_mV_max=20.218056
+gc_gamma_nom=1
+gc_gamma_lam2p5=2.5
+gs_rf_nom=0.015
+gs_rf_a=0.008
+gs_rf_b=0.028
+Rser_nom=0.04
+Rser_gs_a=0.04
