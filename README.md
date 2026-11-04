@@ -1,8 +1,7 @@
-# Exact Fibres of the Continuum DFN Current–Voltage Germ — Reproducibility
+# Exact Current–Voltage Fibres of the Doyle–Fuller–Newman Continuum Model: A Structural Classification at Fixed Preparation — Reproducibility Package
 
 This package regenerates the numerical figures and the SymPy algebraic checks
-that accompany the manuscript on structural identifiability of the continuum
-Doyle–Fuller–Newman (DFN / P2D) current–voltage germ.
+that accompany the manuscript *Exact Current–Voltage Fibres of the Doyle–Fuller–Newman Continuum Model: A Structural Classification at Fixed Preparation*.
 
 Authors: Ding Xu and Changfeng Zhao. License: MIT (see `LICENSE`).
 

@@ -1,12 +1,13 @@
 cff-version: 1.2.0
 message: "If you use this reproducibility package, please cite the manuscript and this software."
-title: "Exact Fibres of the Continuum DFN Current–Voltage Germ — Reproducibility Package"
+title: "Exact Current–Voltage Fibres of the Doyle–Fuller–Newman Continuum Model: A Structural Classification at Fixed Preparation — Reproducibility Package"
 authors:
   - family-names: Xu
     given-names: Ding
   - family-names: Zhao
     given-names: Changfeng
 license: MIT
+repository-code: "https://github.com/kevinxding/dfn-exact-fibres-repro"
 version: "1.0.0"
 date-released: "2026-11-04"
 keywords:
