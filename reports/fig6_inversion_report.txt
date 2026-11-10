@@ -1,0 +1,35 @@
+# Synthetic-data inversion (grouped DFN/P2D, 20 coordinates)
+
+singular values of dV/dlog(theta) at theta*: 4.424e+00 1.043e+00 6.941e-01 2.730e-01 1.346e-01 9.589e-02 8.216e-02 4.208e-02 3.605e-02 2.537e-02 1.811e-02 9.363e-03 6.780e-03 2.068e-03 8.796e-04 5.310e-04 4.378e-04 2.944e-04 7.579e-10 3.059e-13
+ratio s18/s1 = 6.654e-05; s19/s1 = 1.713e-10; s20/s1 = 6.914e-14
+noise sd = 1.0e-04 V; samples = 541
+
+## clean
+rms residual (V): min=2.372e-10 max=5.072e-10
+iterations: min=21 max=54
+start max rel err over Q18: median=4.641e-01
+final max rel err over Q18 (vs truth): max over starts=6.634e-06
+Q18 spread across starts (max/min-1): max over coords=1.030e-05
+per-coordinate max rel err vs truth: T_n=2.57e-07, T_p=9.34e-08, C_n=1.29e-08, C_p=6.47e-09, tauk_n=1.53e-07, tauk_p=7.63e-08, tau_n=1.44e-06, tau_s=3.99e-06, tau_p=3.97e-06, kappa_n=1.58e-06, kappa_p=6.63e-06, sigma_n=4.57e-06, sigma_p=2.92e-06, chi=1.47e-07, zeta_n=2.32e-07, zeta_s=4.49e-06, zeta_p=2.89e-07, R_ser=2.68e-06
+per-coordinate spread across starts: T_n=4.52e-07, T_p=1.51e-07, C_n=1.88e-08, C_p=1.03e-08, tauk_n=2.19e-07, tauk_p=9.21e-08, tau_n=1.96e-06, tau_s=6.45e-06, tau_p=4.59e-06, kappa_n=2.21e-06, kappa_p=1.03e-05, sigma_n=6.40e-06, sigma_p=4.81e-06, chi=2.39e-07, zeta_n=3.70e-07, zeta_s=8.24e-06, zeta_p=2.51e-07, R_ser=5.33e-06
+gamma/gamma*: range [0.0965, 9.83] (ratio 102)
+r_f/r_f*: range [0.155, 2.49] (ratio 16.1)
+kappa_s/kappa_s*: range [0.663, 9.35]
+max |log(gamma_hat/gamma_0)| = 2.446e-01
+corr(log r_f_hat, log r_f_0) = 0.9672
+max |R_ser_hat/R_ser* - 1| = 2.684e-06
+
+## noisy
+rms residual (V): min=9.884e-05 max=9.884e-05
+iterations: min=19 max=68
+start max rel err over Q18: median=4.641e-01
+final max rel err over Q18 (vs truth): max over starts=7.606e-02
+Q18 spread across starts (max/min-1): max over coords=8.662e-03
+per-coordinate max rel err vs truth: T_n=9.71e-04, T_p=2.63e-03, C_n=1.64e-06, C_p=4.73e-06, tauk_n=6.56e-03, tauk_p=1.26e-04, tau_n=2.44e-02, tau_s=4.75e-02, tau_p=7.61e-02, kappa_n=1.69e-02, kappa_p=5.10e-02, sigma_n=4.49e-02, sigma_p=4.73e-02, chi=1.52e-03, zeta_n=3.64e-03, zeta_s=2.52e-02, zeta_p=1.44e-02, R_ser=4.66e-02
+per-coordinate spread across starts: T_n=1.05e-05, T_p=5.95e-06, C_n=1.09e-06, C_p=1.82e-07, tauk_n=6.71e-05, tauk_p=3.28e-06, tau_n=2.60e-04, tau_s=6.65e-03, tau_p=3.68e-03, kappa_n=1.48e-04, kappa_p=9.13e-04, sigma_n=3.45e-04, sigma_p=2.86e-04, chi=5.47e-05, zeta_n=4.08e-04, zeta_s=8.66e-03, zeta_p=6.30e-05, R_ser=3.91e-04
+gamma/gamma*: range [0.0966, 9.84] (ratio 102)
+r_f/r_f*: range [0.154, 2.36] (ratio 15.3)
+kappa_s/kappa_s*: range [0.698, 9.34]
+max |log(gamma_hat/gamma_0)| = 2.456e-01
+corr(log r_f_hat, log r_f_0) = 0.9672
+max |R_ser_hat/R_ser* - 1| = 4.664e-02
