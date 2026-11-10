@@ -1,5 +1,5 @@
 PYTHON ?= python3
-.PHONY: all figures sympy clean
+.PHONY: all figures sympy inversion inversion-plot clean
 
 all: sympy figures
 
@@ -14,5 +14,11 @@ figures:
 	$(PYTHON) scripts/fig4_fibre.py
 	$(PYTHON) scripts/fig5_germ_recovery.py
 
+inversion:
+	$(PYTHON) scripts/fig6_inversion.py
+
+inversion-plot:
+	$(PYTHON) scripts/fig6_inversion.py --plot
+
 clean:
-	rm -f figures/*.pdf figures/png/*.png reports/*.txt
+	rm -f figures/*.pdf figures/png/*.png reports/*.txt reports/*.npz

@@ -18,6 +18,8 @@ STEPS = [
     ("fig3", [sys.executable, str(ROOT / "scripts" / "fig3_gauge.py")]),
     ("fig4", [sys.executable, str(ROOT / "scripts" / "fig4_fibre.py")]),
     ("fig5", [sys.executable, str(ROOT / "scripts" / "fig5_germ_recovery.py")]),
+    ("fig6 (synthetic inversion, ~1-2 h on 8 cores)",
+     [sys.executable, str(ROOT / "scripts" / "fig6_inversion.py")]),
 ]
 
 
